@@ -1,0 +1,108 @@
+{
+	"server-id": "1155435273216348183",
+	"channels-map": {
+		"roundstat": ["1194869555181404250"],
+		"service": ["1194869578237481031"],
+		"announce": ["1194869615336095794"],
+		"admincom": ["1194869637360406528"],
+		"adminlog": ["1194869658138984510"],
+		"adminalert": ["1194869637360406528"],
+		"adminban": ["1194869658138984510", "1194869745145622558"],
+		"adminwl": ["1194869658138984510"],
+		"adminimportant": ["1194869745145622558"],
+		"ooc": ["1194869760987500635"]
+	},
+	"roles-map": {
+		"here": "here",
+		"everyone": "everyone",
+		"roundstart": "Round-slap",
+		"event": "Event-slap"
+	},
+	"commands": {
+		"help": {
+			"arguments": 0,
+			"optional-arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"announce": {
+			"arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"fax": {
+			"arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"centcomm": {
+			"arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"pm": {
+			"arguments": 2,
+			"groups": ["1155435582500118590"]
+		},
+		"ooc": {
+			"arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"toggleooc": {
+			"arguments": 0,
+			"groups": ["1155435582500118590"]
+		},
+		"kick": {
+			"arguments": 2,
+			"groups": ["1155435582500118590"]
+		},
+		"banslist": {
+			"arguments": 1,
+			"optional-arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"bansarchive": {
+			"arguments": 1,
+			"optional-arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"ban": {
+			"arguments": 3,
+			"groups": ["1155435582500118590"]
+		},
+		"unban": {
+			"arguments": 2,
+			"groups": ["1155435582500118590"]
+		},
+		"noteslist": {
+			"arguments": 1,
+			"optional-arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"notedel": {
+			"arguments": 2,
+			"groups": ["1155435582500118590"]
+		},
+		"ert": {
+			"arguments": 0,
+			"optional-arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"pp": {
+			"arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"who": {
+			"arguments": 0,
+			"groups": ["1155435582500118590"]
+		},
+		"round": {
+			"arguments": 1,
+			"groups": ["1155435582500118590"]
+		},
+		"roundfinder": {
+			"arguments": 3,
+			"groups": ["1155435582500118590"]
+		},
+		"status": {
+			"arguments": 0,
+			"groups": ["1155435582500118590"]
+		}
+	}
+}
